@@ -6,7 +6,7 @@ Priority: optional
 Build-depends:
  debhelper-compat (= 13),
  meson,
- build-essentials,
+ build-essential,
  ninja-build,
  cmake,
  pkg-config,
