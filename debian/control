@@ -1,7 +1,7 @@
 Source: libliftoff
 Section: main
 Priority: optional
-Maintainer: name <email>
+Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
 Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
