@@ -9,9 +9,11 @@ add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 apt install pika-sources.deb --yes --option Acquire::Retries=5 --option Acquire::http::Timeout=100 --option Dpkg::Options::="--force-confnew"
 # Clone Upstream
-mkdir -p ./src-pkg-name
-cp -rvf ./debian ./src-pkg-name/
-cd ./src-pkg-name/
+wget -nv https://gitlab.freedesktop.org/emersion/libliftoff/-/releases/v0.4.1/downloads/libliftoff-0.4.1.tar.gz
+tar -xf ./libliftoff-0.4.1.tar.gz
+mkdir -p ./libliftoff-0.4.1
+cp -rvf ./debian ./libliftoff-0.4.1/
+cd ./libliftoff-0.4.1/
 
 # Get build deps
 ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
