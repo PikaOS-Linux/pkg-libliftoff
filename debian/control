@@ -3,7 +3,16 @@ Section: main
 Priority: optional
 Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: 
+            itstool,
+            build-essential,
+            debhelper,
+            python3,
+            meson,
+            ninja,
+            gettext,
+            make,
+            desktop-file-utils
 Rules-Requires-Root: no
 
 Package: libliftoff-dev
