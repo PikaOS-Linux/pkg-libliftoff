@@ -1,28 +1,13 @@
 Source: libliftoff
-Section: main
-Priority: optional
+
 Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
-Build-Depends: 
-            itstool,
-            build-essential,
-            debhelper,
-            python3,
-            meson,
-            ninja-build,
-            gettext,
-            make,
-            desktop-file-utils
-Rules-Requires-Root: no
 
-Package: libliftoff-dev
-Architecture: linux-any
-#
-Description: https://gitlab.freedesktop.org/emersion/libliftoff
-Source: libliftoff
+
+
 Section: libs
 Priority: optional
-Maintainer: Stephan Lachnit <stephanlachnit@debian.org>
+
 Build-Depends:
  debhelper-compat (= 13),
  meson,
