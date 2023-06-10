@@ -34,8 +34,17 @@ Homepage: https://gitlab.freedesktop.org/emersion/libliftoff
 Vcs-Browser: https://salsa.debian.org/debian/libliftoff
 Vcs-Git: https://salsa.debian.org/debian/libliftoff.git
 
-
-
+Package: libliftoff0
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: lightweight KMS plane library
+ libliftoff eases the use of KMS planes from userspace without standing
+ in your way. Users create "virtual planes" called layers, set KMS
+ properties on them, and libliftoff will pick planes for these layers if
+ possible.
 
 Package: libliftoff-dev
 Section: libdevel
@@ -43,7 +52,7 @@ Architecture: any
 Multi-Arch: same
 Depends:
  ${misc:Depends},
-Provides: libliftoff0
+ libliftoff0 (= ${binary:Version}),
 Description: lightweight KMS plane library - development files
  libliftoff eases the use of KMS planes from userspace without standing
  in your way. Users create "virtual planes" called layers, set KMS
