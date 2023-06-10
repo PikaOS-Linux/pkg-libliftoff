@@ -1,4 +1,4 @@
-Source: libliftoff
+Source: libliftoff-dev
 Section: main
 Priority: optional
 Maintainer: ferrreo <harderthanfire@gmail.com>
