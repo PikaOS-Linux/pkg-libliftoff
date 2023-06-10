@@ -17,7 +17,7 @@ cd ./libliftoff-0.4.1/
 
 # Get build deps
 ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
-DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata meson ninja
+DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 apt-get build-dep ./ -y
 
 # Build package
