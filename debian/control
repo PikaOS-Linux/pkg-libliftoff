@@ -1,14 +1,15 @@
 Source: libliftoff
-
 Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
-
-
-
 Section: libs
 Priority: optional
+7
 
-Build-Depends:
+7
+
+8
+
+-depends:
  debhelper-compat (= 13),
  meson,
  pkg-config,
