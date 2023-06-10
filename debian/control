@@ -3,13 +3,7 @@ Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
 Section: libs
 Priority: optional
-7
-
-7
-
-8
-
--depends:
+Build-depends:
  debhelper-compat (= 13),
  meson,
  pkg-config,
