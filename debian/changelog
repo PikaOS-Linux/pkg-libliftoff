@@ -1,5 +1,5 @@
-libliftoff (0.4.1-99pika1) lunar; urgency=medium
+libliftoff (0.4.1-99pika2) pikauwu; urgency=medium
 
-  * Initial release
+  * Rebuild against mantic libs
 
  -- ferreo <harderthanfire@gmail.com>  Wed, 18 Jan 2023 21:48:14 +0000
